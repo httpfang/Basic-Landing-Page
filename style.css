@@ -1,4 +1,22 @@
-html {
-  height: 100%;
-  width: 100%;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,body {
+	line-height: 1.4;
+	font-weight: 300;
+}
+
+.hero-sec {
+	background-image: url(images/developer.png);
+	min-height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text-container {
+	
 }
